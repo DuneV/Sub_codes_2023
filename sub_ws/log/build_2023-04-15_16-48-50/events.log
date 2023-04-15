@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001023] (ds4drv) JobQueued: {'identifier': 'ds4drv', 'dependencies': OrderedDict()}
+[0.001110] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.001148] (mov_woc) JobQueued: {'identifier': 'mov_woc', 'dependencies': OrderedDict()}
+[0.001192] (spacenav_node) JobQueued: {'identifier': 'spacenav_node', 'dependencies': OrderedDict()}
+[0.001236] (joystick_drivers) JobQueued: {'identifier': 'joystick_drivers', 'dependencies': OrderedDict([('joy', '/home/krita/sub_ws/install/joy'), ('spacenav_node', '/home/krita/sub_ws/install/spacenav_node')])}
+[0.001278] (joy) JobStarted: {'identifier': 'joy'}
+[0.013552] (spacenav_node) JobStarted: {'identifier': 'spacenav_node'}
+[0.021778] (ds4drv) JobStarted: {'identifier': 'ds4drv'}
+[0.029840] (mov_woc) JobStarted: {'identifier': 'mov_woc'}
+[0.043332] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.043741] (joy) Command: {'cmd': ['/home/krita/.local/bin/cmake', '/home/krita/sub_ws/src/joystick_drivers/joy', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/joy'], 'cwd': '/home/krita/sub_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'krita'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/krita/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/krita'), ('OLDPWD', '/home/krita/sub_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/krita/sub_ws/install:/home/krita/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'krita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krita'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/krita/sub_ws/install/ds4drv/bin:/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krita:@/tmp/.ICE-unix/2060,unix/krita:/tmp/.ICE-unix/2060'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/300260c5_47b1_42eb_8fc5_3e42bb3e2a1b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O30B31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/tutorial_interfaces:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krita/sub_ws/build/joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/krita/sub_ws/install/ds4drv/lib/python3.10/site-packages:/home/krita/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/krita/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/krita/ros2_ws/install/submarino_controller/lib/python3.10/site-packages:/home/krita/ros2_ws/install/rosboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/krita/ros2_ws/install/tutorial_interfaces')]), 'shell': False}
+[0.047668] (spacenav_node) JobProgress: {'identifier': 'spacenav_node', 'progress': 'cmake'}
+[0.047849] (spacenav_node) Command: {'cmd': ['/home/krita/.local/bin/cmake', '/home/krita/sub_ws/src/joystick_drivers/spacenav_node', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/spacenav_node'], 'cwd': '/home/krita/sub_ws/build/spacenav_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'krita'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/krita/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/krita'), ('OLDPWD', '/home/krita/sub_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/krita/sub_ws/install:/home/krita/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'krita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krita'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/krita/sub_ws/install/ds4drv/bin:/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krita:@/tmp/.ICE-unix/2060,unix/krita:/tmp/.ICE-unix/2060'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/300260c5_47b1_42eb_8fc5_3e42bb3e2a1b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O30B31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/tutorial_interfaces:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krita/sub_ws/build/spacenav_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/krita/sub_ws/install/ds4drv/lib/python3.10/site-packages:/home/krita/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/krita/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/krita/ros2_ws/install/submarino_controller/lib/python3.10/site-packages:/home/krita/ros2_ws/install/rosboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/krita/ros2_ws/install/tutorial_interfaces')]), 'shell': False}
+[0.099537] (-) TimerEvent: {}
+[0.199912] (-) TimerEvent: {}
+[0.300244] (-) TimerEvent: {}
+[0.400628] (-) TimerEvent: {}
+[0.462620] (joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.463652] (joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.463766] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.463880] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.464515] (joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.464642] (joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.464734] (joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.464822] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.464908] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.464994] (joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.465079] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.465164] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.465249] (spacenav_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.465358] (spacenav_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.465445] (spacenav_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.465538] (spacenav_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.465624] (spacenav_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.465711] (spacenav_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.465796] (spacenav_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.465880] (spacenav_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.465965] (spacenav_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.466050] (spacenav_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.466137] (spacenav_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.466224] (spacenav_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.495776] (joy) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.496175] (joy) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.496309] (joy) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.496433] (joy) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.496554] (joy) StderrLine: {'line': b'\n'}
+[0.496674] (joy) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.496795] (joy) StderrLine: {'line': b'  of the following names:\n'}
+[0.496915] (joy) StderrLine: {'line': b'\n'}
+[0.497034] (joy) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.497152] (joy) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.497272] (joy) StderrLine: {'line': b'\n'}
+[0.497392] (joy) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.497512] (joy) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.497633] (joy) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.497752] (joy) StderrLine: {'line': b'  installed.\n'}
+[0.497872] (joy) StderrLine: {'line': b'\n'}
+[0.497991] (joy) StderrLine: {'line': b'\x1b[0m\n'}
+[0.498111] (spacenav_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.498255] (spacenav_node) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.498381] (spacenav_node) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.498503] (spacenav_node) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.498623] (spacenav_node) StderrLine: {'line': b'\n'}
+[0.498742] (spacenav_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.498886] (spacenav_node) StderrLine: {'line': b'  of the following names:\n'}
+[0.499020] (spacenav_node) StderrLine: {'line': b'\n'}
+[0.499139] (spacenav_node) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.499258] (spacenav_node) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.499376] (spacenav_node) StderrLine: {'line': b'\n'}
+[0.499493] (spacenav_node) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.499610] (spacenav_node) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.499728] (spacenav_node) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.499845] (spacenav_node) StderrLine: {'line': b'  installed.\n'}
+[0.499960] (spacenav_node) StderrLine: {'line': b'\n'}
+[0.500077] (spacenav_node) StderrLine: {'line': b'\x1b[0m\n'}
+[0.500195] (joy) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.500326] (spacenav_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.500704] (-) TimerEvent: {}
+[0.601031] (-) TimerEvent: {}
+[0.701471] (-) TimerEvent: {}
+[0.801929] (-) TimerEvent: {}
+[0.868375] (joy) CommandEnded: {'returncode': 1}
+[0.870545] (spacenav_node) CommandEnded: {'returncode': 1}
+[0.902020] (-) TimerEvent: {}
+[0.928009] (joy) JobEnded: {'identifier': 'joy', 'rc': 1}
+[0.929244] (spacenav_node) JobEnded: {'identifier': 'spacenav_node', 'rc': 'SIGINT'}
+[0.966693] (ds4drv) JobEnded: {'identifier': 'ds4drv', 'rc': 'SIGINT'}
+[1.002104] (-) TimerEvent: {}
+[1.102368] (-) TimerEvent: {}
+[1.202756] (-) TimerEvent: {}
+[1.303183] (-) TimerEvent: {}
+[1.371686] (mov_woc) JobEnded: {'identifier': 'mov_woc', 'rc': 'SIGINT'}
+[1.373373] (joystick_drivers) JobSkipped: {'identifier': 'joystick_drivers'}
+[1.373452] (-) EventReactorShutdown: {}

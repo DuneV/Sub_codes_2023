@@ -1,0 +1,265 @@
+[0.489s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.489s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe11341c250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe1135f3ca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe1135f3ca0>>)
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.520s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/krita/sub_ws'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ros'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['cmake', 'python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'cmake'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'python'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/ds4drv' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'python_setup_py'
+[0.936s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4drv' with type 'python' and name 'ds4drv'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[0.941s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.catkin' and name 'joy'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ros'
+[0.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joystick_drivers' with type 'ros.catkin' and name 'joystick_drivers'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ros'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav_node) by extension 'ros'
+[0.945s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/spacenav_node' with type 'ros.catkin' and name 'spacenav_node'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ros'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) ignored
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'ros'
+[0.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mov_woc' with type 'ros.ament_python' and name 'mov_woc'
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.982s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/krita/sub_ws/install
+[0.984s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/krita/ros2_ws/install
+[0.986s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.069s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_args' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_target' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_clean_cache' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_clean_first' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_force_configure' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'ament_cmake_args' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'catkin_cmake_args' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.072s] DEBUG:colcon.colcon_core.verb:Building package 'ds4drv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/sub_ws/build/ds4drv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/sub_ws/install/ds4drv', 'merge_install': False, 'path': '/home/krita/sub_ws/src/ds4drv', 'symlink_install': False, 'test_result_base': None}
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.073s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/sub_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/sub_ws/install/joy', 'merge_install': False, 'path': '/home/krita/sub_ws/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_args' from command line to 'None'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_target' from command line to 'None'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_clean_first' from command line to 'False'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_force_configure' from command line to 'False'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'ament_cmake_args' from command line to 'None'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.075s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.075s] DEBUG:colcon.colcon_core.verb:Building package 'mov_woc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/sub_ws/build/mov_woc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/sub_ws/install/mov_woc', 'merge_install': False, 'path': '/home/krita/sub_ws/src/mov_woc', 'symlink_install': False, 'test_result_base': None}
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'cmake_args' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'cmake_target' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'spacenav_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.077s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/sub_ws/build/spacenav_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/sub_ws/install/spacenav_node', 'merge_install': False, 'path': '/home/krita/sub_ws/src/joystick_drivers/spacenav_node', 'symlink_install': False, 'test_result_base': None}
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'cmake_args' from command line to 'None'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'cmake_target' from command line to 'None'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'cmake_clean_first' from command line to 'False'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'cmake_force_configure' from command line to 'False'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'ament_cmake_args' from command line to 'None'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'joystick_drivers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.078s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_drivers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/sub_ws/build/joystick_drivers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/sub_ws/install/joystick_drivers', 'merge_install': False, 'path': '/home/krita/sub_ws/src/joystick_drivers/joystick_drivers', 'symlink_install': False, 'test_result_base': None}
+[1.079s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.084s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/krita/sub_ws/src/joystick_drivers/joy' with build type 'catkin'
+[1.084s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krita/sub_ws/src/joystick_drivers/joy'
+[1.089s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.090s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.097s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/krita/sub_ws/src/joystick_drivers/spacenav_node' with build type 'catkin'
+[1.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krita/sub_ws/src/joystick_drivers/spacenav_node'
+[1.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.105s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krita/sub_ws/src/ds4drv'
+[1.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.113s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krita/sub_ws/src/mov_woc' with build type 'ament_python'
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('mov_woc', 'ament_prefix_path')
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/sub_ws/install/mov_woc/share/mov_woc/hook/ament_prefix_path.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/sub_ws/install/mov_woc/share/mov_woc/hook/ament_prefix_path.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/sub_ws/install/mov_woc/share/mov_woc/hook/ament_prefix_path.sh'
+[1.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/sub_ws/build/joy': /home/krita/.local/bin/cmake /home/krita/sub_ws/src/joystick_drivers/joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/joy
+[1.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/sub_ws/build/spacenav_node': /home/krita/.local/bin/cmake /home/krita/sub_ws/src/joystick_drivers/spacenav_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/spacenav_node
+[1.934s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krita/sub_ws/src/mov_woc'
+[1.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/sub_ws/build/joy' returned '1': /home/krita/.local/bin/cmake /home/krita/sub_ws/src/joystick_drivers/joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/joy
+[1.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/sub_ws/build/spacenav_node' returned '1': /home/krita/.local/bin/cmake /home/krita/sub_ws/src/joystick_drivers/spacenav_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/spacenav_node
+[1.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/krita/sub_ws/install/joy' for CMake module files
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/krita/sub_ws/install/joy' for CMake config files
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/krita/sub_ws/install/joy/bin'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/krita/sub_ws/install/joy/lib/pkgconfig/joy.pc'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/krita/sub_ws/install/joy/lib/python3.10/site-packages'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/krita/sub_ws/install/joy/bin'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/sub_ws/install/joy/share/joy/package.ps1'
+[2.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krita/sub_ws/install/joy/share/joy/package.dsv'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/sub_ws/install/joy/share/joy/package.sh'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/sub_ws/install/joy/share/joy/package.bash'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/sub_ws/install/joy/share/joy/package.zsh'
+[2.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krita/sub_ws/install/joy/share/colcon-core/packages/joy)
+[2.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.456s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.473s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.473s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.489s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/sub_ws/install/local_setup.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krita/sub_ws/install/_local_setup_util_ps1.py'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/sub_ws/install/setup.ps1'
+[2.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/sub_ws/install/local_setup.sh'
+[2.504s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krita/sub_ws/install/_local_setup_util_sh.py'
+[2.505s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/sub_ws/install/setup.sh'
+[2.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/sub_ws/install/local_setup.bash'
+[2.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/sub_ws/install/setup.bash'
+[2.513s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/sub_ws/install/local_setup.zsh'
+[2.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/sub_ws/install/setup.zsh'

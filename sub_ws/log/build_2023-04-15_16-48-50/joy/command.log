@@ -1,0 +1,2 @@
+Invoking command in '/home/krita/sub_ws/build/joy': /home/krita/.local/bin/cmake /home/krita/sub_ws/src/joystick_drivers/joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/joy
+Invoked command in '/home/krita/sub_ws/build/joy' returned '1': /home/krita/.local/bin/cmake /home/krita/sub_ws/src/joystick_drivers/joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/krita/sub_ws/install/joy

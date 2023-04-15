@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing ../../build/mov_woc/mov_woc.egg-info/PKG-INFO
+writing dependency_links to ../../build/mov_woc/mov_woc.egg-info/dependency_links.txt
+writing entry points to ../../build/mov_woc/mov_woc.egg-info/entry_points.txt
+writing requirements to ../../build/mov_woc/mov_woc.egg-info/requires.txt
+writing top-level names to ../../build/mov_woc/mov_woc.egg-info/top_level.txt
+reading manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mov_woc/mov_woc.egg-info to /home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /home/krita/sub_ws/install/mov_woc/lib/mov_woc
+writing list of installed files to '/home/krita/sub_ws/build/mov_woc/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+conversor = mov_woc.mov1:main
+

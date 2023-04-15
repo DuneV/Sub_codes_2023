@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mov_woc/mov_woc.egg-info/PKG-INFO
+../../build/mov_woc/mov_woc.egg-info/SOURCES.txt
+../../build/mov_woc/mov_woc.egg-info/dependency_links.txt
+../../build/mov_woc/mov_woc.egg-info/entry_points.txt
+../../build/mov_woc/mov_woc.egg-info/requires.txt
+../../build/mov_woc/mov_woc.egg-info/top_level.txt
+../../build/mov_woc/mov_woc.egg-info/zip-safe
+mov_woc/__init__.py
+mov_woc/mov1.py
+resource/mov_woc
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

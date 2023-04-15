@@ -1,0 +1,3 @@
+[console_scripts]
+ds4drv = ds4drv.__main__:main
+

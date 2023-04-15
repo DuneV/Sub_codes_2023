@@ -1,0 +1,9 @@
+source;share/ds4drv/hook/path.ps1
+source;share/ds4drv/hook/path.dsv
+source;share/ds4drv/hook/path.sh
+source;share/ds4drv/hook/pythonpath.ps1
+source;share/ds4drv/hook/pythonpath.dsv
+source;share/ds4drv/hook/pythonpath.sh
+source;share/ds4drv/hook/pythonscriptspath.ps1
+source;share/ds4drv/hook/pythonscriptspath.dsv
+source;share/ds4drv/hook/pythonscriptspath.sh

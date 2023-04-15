@@ -1,0 +1,35 @@
+[2.105s] Invoking command in '/home/krita/sub_ws/src/mov_woc': PYTHONPATH=/home/krita/sub_ws/build/mov_woc/prefix_override:/home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/krita/sub_ws/build/mov_woc/build install --record /home/krita/sub_ws/build/mov_woc/install.log --single-version-externally-managed
+[2.304s] running egg_info
+[2.305s] creating ../../build/mov_woc/mov_woc.egg-info
+[2.305s] writing ../../build/mov_woc/mov_woc.egg-info/PKG-INFO
+[2.305s] writing dependency_links to ../../build/mov_woc/mov_woc.egg-info/dependency_links.txt
+[2.305s] writing entry points to ../../build/mov_woc/mov_woc.egg-info/entry_points.txt
+[2.305s] writing requirements to ../../build/mov_woc/mov_woc.egg-info/requires.txt
+[2.305s] writing top-level names to ../../build/mov_woc/mov_woc.egg-info/top_level.txt
+[2.305s] writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[2.306s] reading manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[2.307s] writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[2.307s] running build
+[2.307s] running build_py
+[2.307s] creating /home/krita/sub_ws/build/mov_woc/build
+[2.307s] creating /home/krita/sub_ws/build/mov_woc/build/lib
+[2.307s] creating /home/krita/sub_ws/build/mov_woc/build/lib/mov_woc
+[2.307s] copying mov_woc/__init__.py -> /home/krita/sub_ws/build/mov_woc/build/lib/mov_woc
+[2.308s] running install
+[2.326s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.326s]   warnings.warn(
+[2.327s] running install_lib
+[2.327s] creating /home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc
+[2.327s] copying /home/krita/sub_ws/build/mov_woc/build/lib/mov_woc/__init__.py -> /home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc
+[2.328s] byte-compiling /home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/__init__.py to __init__.cpython-310.pyc
+[2.328s] running install_data
+[2.328s] creating /home/krita/sub_ws/install/mov_woc/share/ament_index
+[2.328s] creating /home/krita/sub_ws/install/mov_woc/share/ament_index/resource_index
+[2.328s] creating /home/krita/sub_ws/install/mov_woc/share/ament_index/resource_index/packages
+[2.329s] copying resource/mov_woc -> /home/krita/sub_ws/install/mov_woc/share/ament_index/resource_index/packages
+[2.329s] copying package.xml -> /home/krita/sub_ws/install/mov_woc/share/mov_woc
+[2.329s] running install_egg_info
+[2.330s] Copying ../../build/mov_woc/mov_woc.egg-info to /home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info
+[2.330s] running install_scripts
+[2.349s] writing list of installed files to '/home/krita/sub_ws/build/mov_woc/install.log'
+[2.373s] Invoked command in '/home/krita/sub_ws/src/mov_woc' returned '0': PYTHONPATH=/home/krita/sub_ws/build/mov_woc/prefix_override:/home/krita/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/krita/sub_ws/build/mov_woc/build install --record /home/krita/sub_ws/build/mov_woc/install.log --single-version-externally-managed

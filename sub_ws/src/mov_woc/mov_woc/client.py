@@ -1,4 +1,4 @@
-from common_interfaces.srv import Capture2model
+from com_interfaces.srv import Capture2model
 
 import rclpy
 from rclpy.node import Node

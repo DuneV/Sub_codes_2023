@@ -53,7 +53,7 @@ cp avr /source_folder(package)  /destination_folder(workspace_ws/src)
 _Enter to your workspace_
 
 ```
-catkin_make or catkin_build
+colcon build
 ```
 
 ### Troubleshooting 🔩
@@ -61,7 +61,7 @@ catkin_make or catkin_build
 _You may not have all the necessary libraries and packages, you can download a package manager like pip to the python libraries (pynput, pytteseract, rosserial, cv2, cvbridge, threading, etc.) or sudo apt-get install ros_distribution-package-ersion_
 
 ```
-sudo apt-get install ros-noetic/melodic-realsense-camera
+sudo pip install ds4drv
 ```
 
 ### STM32 execution ⌨️

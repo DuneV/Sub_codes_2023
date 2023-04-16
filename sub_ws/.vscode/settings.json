@@ -1,3 +1,23 @@
 {
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages",
+        "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages",
+        "/home/krita/ros2_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/krita/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/home/krita/ros2_ws/install/submarino_controller/lib/python3.10/site-packages",
+        "/home/krita/ros2_ws/install/rosboard/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages",
+        "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages",
+        "/home/krita/ros2_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/krita/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/home/krita/ros2_ws/install/submarino_controller/lib/python3.10/site-packages",
+        "/home/krita/ros2_ws/install/rosboard/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

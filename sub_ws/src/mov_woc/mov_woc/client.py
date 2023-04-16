@@ -1,6 +1,4 @@
-#! /usr/bin/env python3
-
-from mov_woc.srv import capture2model
+from common_interfaces.srv import Capture2model
 
 import rclpy
 from rclpy.node import Node
@@ -9,10 +7,10 @@ class client_pro(Node):
     
     def __init__(self):
         super().__init__('client')
-        self.cli = self.create_client(capture2model, 'Capture2model')
+        self.cli = self.create_client(Capture2model, 'Capture2model')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting')
-        self.req = capture2model.Request()
+        self.req = Capture2model.Request()
 
     def send_request(self):
         self.req.input = False

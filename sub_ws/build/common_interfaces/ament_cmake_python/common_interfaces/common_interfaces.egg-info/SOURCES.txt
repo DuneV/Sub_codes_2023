@@ -1,0 +1,13 @@
+setup.py
+common_interfaces/__init__.py
+common_interfaces.egg-info/PKG-INFO
+common_interfaces.egg-info/SOURCES.txt
+common_interfaces.egg-info/dependency_links.txt
+common_interfaces.egg-info/top_level.txt
+common_interfaces/msg/__init__.py
+common_interfaces/msg/_num.py
+common_interfaces/msg/_sphere.py
+common_interfaces/srv/__init__.py
+common_interfaces/srv/_add_three_ints.py
+common_interfaces/srv/_cam_and_color.py
+common_interfaces/srv/_capture2model.py

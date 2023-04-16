@@ -1,0 +1,363 @@
+[1.353s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/mov_woc:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc:/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble /home/krita/.local/bin/cmake /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces
+[1.447s] -- The C compiler identification is GNU 11.3.0
+[1.521s] -- The CXX compiler identification is GNU 11.3.0
+[1.533s] -- Detecting C compiler ABI info
+[1.600s] -- Detecting C compiler ABI info - done
+[1.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.616s] -- Detecting C compile features
+[1.617s] -- Detecting C compile features - done
+[1.630s] -- Detecting CXX compiler ABI info
+[1.711s] -- Detecting CXX compiler ABI info - done
+[1.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.728s] -- Detecting CXX compile features
+[1.729s] -- Detecting CXX compile features - done
+[1.733s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.602s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.767s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.844s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.854s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.872s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.168s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.581s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.320s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[4.323s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.365s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.365s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.365s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.365s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.398s] -- Found PythonExtra: .so  
+[4.513s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.549s] -- Added test 'lint_cmake' to check CMake code style
+[4.553s] -- Added test 'xmllint' to check XML markup files
+[4.560s] -- Configuring done (3.2s)
+[4.632s] -- Generating done (0.1s)
+[4.637s] -- Build files have been written to: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces
+[4.655s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/mov_woc:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc:/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble /home/krita/.local/bin/cmake /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces
+[4.657s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/mov_woc:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc:/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble /home/krita/.local/bin/cmake --build /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces -- -j12 -l12
+[4.722s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.728s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.730s] [  3%] Built target ament_cmake_python_copy_tutorial_interfaces
+[5.122s] running egg_info
+[5.122s] creating tutorial_interfaces.egg-info
+[5.122s] writing tutorial_interfaces.egg-info/PKG-INFO
+[5.123s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[5.123s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[5.123s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[5.125s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[5.126s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[5.149s] [  3%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[5.414s] [  3%] Built target tutorial_interfaces__cpp
+[5.420s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.420s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.420s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.464s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[5.464s] [ 11%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[5.465s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[5.466s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/cam_and_color__functions.c.o[0m
+[5.466s] [ 15%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/capture2model__functions.c.o[0m
+[5.565s] [ 17%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[5.598s] [ 17%] Built target tutorial_interfaces__rosidl_generator_c
+[5.604s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.605s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.605s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.002s] [ 23%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.002s] [ 25%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[6.002s] [ 26%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[6.002s] [ 28%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/cam_and_color__type_support.cpp.o[0m
+[6.003s] [ 30%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/capture2model__type_support.cpp.o[0m
+[6.034s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[6.034s] [ 33%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[6.035s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[6.148s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[6.259s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.316s] [ 39%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[6.366s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[6.420s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/cam_and_color__type_support.cpp.o[0m
+[6.477s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/capture2model__type_support.cpp.o[0m
+[6.478s] [ 46%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[6.511s] [ 47%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[6.531s] [ 49%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[6.537s] [ 50%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[6.568s] [ 52%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[6.575s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[6.594s] [ 53%] Built target tutorial_interfaces__rosidl_typesupport_c
+[6.595s] [ 55%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[6.599s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[6.602s] [ 58%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/cam_and_color__type_support.c.o[0m
+[6.626s] [ 60%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/capture2model__type_support.c.o[0m
+[6.628s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[6.631s] [ 63%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[6.672s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/cam_and_color__type_support_c.cpp.o[0m
+[6.686s] [ 66%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.702s] [ 66%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[6.710s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/capture2model__type_support_c.cpp.o[0m
+[6.734s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[6.741s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/cam_and_color__type_support.cpp.o[0m
+[6.909s] [ 71%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/cam_and_color__type_support.cpp.o[0m
+[6.935s] [ 73%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/capture2model__type_support.cpp.o[0m
+[6.942s] [ 74%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/capture2model__type_support.cpp.o[0m
+[7.582s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.626s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.662s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[7.689s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[7.705s] [ 79%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.778s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.787s] [ 79%] Built target tutorial_interfaces
+[7.799s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.076s] [ 80%] Built target tutorial_interfaces__py
+[9.087s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[9.088s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[9.088s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[9.089s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_cam_and_color_s.c.o[0m
+[9.089s] [ 88%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_capture2model_s.c.o[0m
+[9.238s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[9.276s] [ 90%] Built target tutorial_interfaces__rosidl_generator_py
+[9.287s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.287s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.288s] [ 95%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.440s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.452s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.459s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.483s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[9.492s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.497s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.508s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/mov_woc:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc:/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble /home/krita/.local/bin/cmake --build /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces -- -j12 -l12
+[9.687s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/mov_woc:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc:/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble /home/krita/.local/bin/cmake --install /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces
+[9.728s] -- Install configuration: ""
+[9.728s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[9.728s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/cam_and_color.h
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__functions.h
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__functions.c
+[9.729s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__type_support.h
+[9.730s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__functions.c
+[9.730s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__struct.h
+[9.730s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[9.730s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__struct.h
+[9.730s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__type_support.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__functions.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/capture2model.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[9.731s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[9.732s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[9.733s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[9.733s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[9.733s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[9.733s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[9.734s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[9.734s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[9.734s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[9.734s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[9.734s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_c.h
+[9.734s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[9.734s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_c.h
+[9.735s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[9.735s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.735s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[9.735s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[9.735s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[9.735s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.735s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.736s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[9.736s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[9.736s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/capture2model.hpp
+[9.736s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[9.736s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__struct.hpp
+[9.736s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[9.736s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__builder.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__builder.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__traits.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__struct.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__traits.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/cam_and_color.hpp
+[9.737s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[9.737s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[9.738s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[9.738s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[9.739s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[9.739s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[9.739s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[9.739s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_cpp.hpp
+[9.739s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[9.739s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_cpp.hpp
+[9.739s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[9.740s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[9.740s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.740s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[9.740s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[9.740s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[9.740s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[9.740s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.741s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.741s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[9.741s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[9.741s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[9.741s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_c.h
+[9.741s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_c.h
+[9.741s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__type_support.c
+[9.741s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__type_support.c
+[9.741s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[9.742s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[9.742s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[9.742s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.742s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[9.742s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[9.742s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[9.742s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[9.742s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[9.743s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[9.743s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.743s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[9.744s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[9.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[9.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[9.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[9.744s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_cpp.hpp
+[9.744s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_cpp.hpp
+[9.744s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/cam_and_color__type_support.cpp
+[9.744s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/capture2model__type_support.cpp
+[9.744s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[9.745s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[9.745s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[9.745s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[9.745s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[9.745s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[9.745s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[9.745s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[9.745s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.746s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.746s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[9.747s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.747s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[9.747s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[9.747s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[9.747s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.747s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.747s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_capture2model.py
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_capture2model_s.c
+[9.748s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_cam_and_color.py
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_cam_and_color_s.c
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[9.749s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.750s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.751s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[9.751s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[9.751s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.814s] Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[9.815s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[9.815s] Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[9.815s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[9.815s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[9.815s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[9.815s] Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[9.816s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[9.816s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[9.816s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_cam_and_color.py'...
+[9.816s] Compiling '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_capture2model.py'...
+[9.821s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.821s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.822s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.822s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.822s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.823s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.823s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[9.824s] -- Set runtime path of "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[9.824s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[9.824s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[9.824s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[9.825s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/CamAndColor.idl
+[9.825s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Capture2model.idl
+[9.825s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[9.825s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[9.825s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[9.826s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[9.826s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[9.826s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/CamAndColor.srv
+[9.826s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/CamAndColor_Request.msg
+[9.826s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/CamAndColor_Response.msg
+[9.826s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Capture2model.srv
+[9.827s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Capture2model_Request.msg
+[9.827s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Capture2model_Response.msg
+[9.827s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[9.827s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[9.827s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[9.828s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[9.828s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[9.828s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[9.828s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[9.828s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[9.829s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[9.829s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[9.829s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[9.829s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[9.830s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[9.830s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.830s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.830s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.830s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[9.831s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.831s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.831s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.831s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.832s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[9.832s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.832s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.832s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.833s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[9.833s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.833s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[9.833s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.833s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.834s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.834s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.834s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.834s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.834s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.835s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.835s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[9.835s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[9.835s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[9.846s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/mov_woc:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli/install/py_srvcli:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc:/home/krita/sub_ws/install/mov_woc:/home/krita/ros2_ws/install/py_pubsub:/home/krita/ros2_ws/install/submarino_controller:/home/krita/ros2_ws/install/rosboard:/opt/ros/humble /home/krita/.local/bin/cmake --install /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/tutorial_interfaces

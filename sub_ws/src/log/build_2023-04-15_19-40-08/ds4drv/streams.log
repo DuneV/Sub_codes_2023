@@ -1,0 +1,108 @@
+[1.314s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ds4drv build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/install.log --single-version-externally-managed
+[1.707s] running egg_info
+[1.708s] creating ../build/ds4drv/ds4drv.egg-info
+[1.708s] writing ../build/ds4drv/ds4drv.egg-info/PKG-INFO
+[1.708s] writing dependency_links to ../build/ds4drv/ds4drv.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../build/ds4drv/ds4drv.egg-info/entry_points.txt
+[1.709s] writing requirements to ../build/ds4drv/ds4drv.egg-info/requires.txt
+[1.709s] writing top-level names to ../build/ds4drv/ds4drv.egg-info/top_level.txt
+[1.709s] writing manifest file '../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[1.711s] reading manifest file '../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[1.712s] reading manifest template 'MANIFEST.in'
+[1.855s] adding license file 'LICENSE'
+[1.856s] writing manifest file '../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[1.856s] running build
+[1.856s] running build_py
+[1.856s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build
+[1.856s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib
+[1.856s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.856s] copying ds4drv/uinput.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/action.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/device.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/utils.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/daemon.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/exceptions.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/eventloop.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/logger.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/__main__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.857s] copying ds4drv/backend.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.858s] copying ds4drv/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.858s] copying ds4drv/config.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv
+[1.858s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.858s] copying ds4drv/actions/btsignal.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.858s] copying ds4drv/actions/battery.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.858s] copying ds4drv/actions/dump.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.859s] copying ds4drv/actions/status.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.859s] copying ds4drv/actions/input.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.859s] copying ds4drv/actions/binding.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.859s] copying ds4drv/actions/led.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.859s] copying ds4drv/actions/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions
+[1.860s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends
+[1.860s] copying ds4drv/backends/bluetooth.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends
+[1.860s] copying ds4drv/backends/hidraw.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends
+[1.860s] copying ds4drv/backends/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends
+[1.860s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/packages
+[1.860s] copying ds4drv/packages/timerfd.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/packages
+[1.860s] copying ds4drv/packages/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/packages
+[1.861s] running install
+[1.861s] running install_lib
+[1.862s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.862s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends/bluetooth.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends/hidraw.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backends/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/uinput.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/action.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/device.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/utils.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.863s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/daemon.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.864s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/exceptions.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.864s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages
+[1.864s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/packages/timerfd.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages
+[1.864s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/packages/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages
+[1.864s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/eventloop.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.864s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/logger.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.864s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.864s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/btsignal.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/battery.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/dump.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/status.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/input.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/binding.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/led.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/actions/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions
+[1.865s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/__main__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.866s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/backend.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.866s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.866s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build/lib/ds4drv/config.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv
+[1.866s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends/bluetooth.py to bluetooth.cpython-310.pyc
+[1.868s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends/hidraw.py to hidraw.cpython-310.pyc
+[1.869s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends/__init__.py to __init__.cpython-310.pyc
+[1.869s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/uinput.py to uinput.cpython-310.pyc
+[1.872s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/action.py to action.cpython-310.pyc
+[1.873s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/device.py to device.cpython-310.pyc
+[1.875s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/utils.py to utils.cpython-310.pyc
+[1.875s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/daemon.py to daemon.cpython-310.pyc
+[1.876s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/exceptions.py to exceptions.cpython-310.pyc
+[1.876s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages/timerfd.py to timerfd.cpython-310.pyc
+[1.877s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages/__init__.py to __init__.cpython-310.pyc
+[1.878s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/eventloop.py to eventloop.cpython-310.pyc
+[1.878s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/logger.py to logger.cpython-310.pyc
+[1.879s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/btsignal.py to btsignal.cpython-310.pyc
+[1.880s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/battery.py to battery.cpython-310.pyc
+[1.880s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/dump.py to dump.cpython-310.pyc
+[1.881s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/status.py to status.cpython-310.pyc
+[1.881s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/input.py to input.cpython-310.pyc
+[1.882s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/binding.py to binding.cpython-310.pyc
+[1.883s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/led.py to led.cpython-310.pyc
+[1.884s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/__init__.py to __init__.cpython-310.pyc
+[1.884s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/__main__.py to __main__.cpython-310.pyc
+[1.886s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/backend.py to backend.cpython-310.pyc
+[1.886s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/__init__.py to __init__.cpython-310.pyc
+[1.886s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv/config.py to config.cpython-310.pyc
+[1.888s] running install_egg_info
+[1.890s] Copying ../build/ds4drv/ds4drv.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info
+[1.891s] running install_scripts
+[1.918s] Installing ds4drv script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/bin
+[1.919s] writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/install.log'
+[1.949s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ds4drv build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/build/ds4drv/install.log --single-version-externally-managed

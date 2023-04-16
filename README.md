@@ -26,14 +26,23 @@ Recommend to use a Code Editor
 - [PyCharm](https://linuxconfig.org/how-to-install-pycharm-on-ubuntu-20-04-linux-desktop)
 
 
-### Installation 🔧
+### Installation and pre-requisites 🔧
+
+_Be sure that you have install those pkgs
+
+```
+sudo pip install ds4drv
+```
+```
+sudo pip install opencv-python
+```
 
 _The first step is to clone the repository to a folder of your choice._
 
 _Look for the folder that you want to beand in the terminal_
 
 ```
-git clone https://github.com/DuneV/glowing-enigma.git
+https://github.com/DuneV/Sub_codes_2023.git
 ```
 
 _Second, enter to the folder_

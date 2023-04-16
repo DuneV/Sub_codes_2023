@@ -33,11 +33,11 @@ class Ds4Control(Node):
 
         if self.buttons[11] > 0:
 
-            twistMessage.linear.y = 81.0 # evalua
+            twistMessage.linear.y = 1.0 # evalua
 
         elif self.buttons[12] > 0:
 
-            twistMessage.linear.y = 21.0 # evalua
+            twistMessage.linear.y = -1.0 # evalua
 
         elif self.buttons[14] > 0:
 
@@ -74,5 +74,6 @@ def main(args = None):
 
     
 if __name__ == '__main__':
+
     main()
     

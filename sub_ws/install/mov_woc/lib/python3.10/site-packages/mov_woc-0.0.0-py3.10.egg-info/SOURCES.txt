@@ -8,6 +8,7 @@ setup.py
 ../../build/mov_woc/mov_woc.egg-info/requires.txt
 ../../build/mov_woc/mov_woc.egg-info/top_level.txt
 ../../build/mov_woc/mov_woc.egg-info/zip-safe
+launch/sub_launch.py
 mov_woc/__init__.py
 mov_woc/mov1.py
 resource/mov_woc

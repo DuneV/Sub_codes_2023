@@ -9,7 +9,9 @@
 
   <depend>rclpy</depend>
   <exec_depend>ros2launch</exec_depend>
-
+<depend>rosidl_default_generators</depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

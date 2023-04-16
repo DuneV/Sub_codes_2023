@@ -22,7 +22,9 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['conversor = mov_woc.mov1:main'
+        'console_scripts': ['conversor = mov_woc.mov1:main',
+                            'service = mov_woc.coral:main',
+                            'client = mov_woc.client:main'
         ],
     },
 )

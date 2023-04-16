@@ -10,6 +10,8 @@ setup.py
 ../../build/mov_woc/mov_woc.egg-info/zip-safe
 launch/sub_launch.py
 mov_woc/__init__.py
+mov_woc/client.py
+mov_woc/coral.py
 mov_woc/mov1.py
 resource/mov_woc
 test/test_copyright.py

@@ -1,3 +1,5 @@
 [console_scripts]
+client = mov_woc.client:main
 conversor = mov_woc.mov1:main
+service = mov_woc.coral:main
 

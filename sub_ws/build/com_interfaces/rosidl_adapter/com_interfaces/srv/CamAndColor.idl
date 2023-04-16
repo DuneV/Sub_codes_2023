@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from com_interfaces/srv/CamAndColor.srv
+// generated code does not contain a copyright notice
+
+
+module com_interfaces {
+  module srv {
+    struct CamAndColor_Request {
+      int64 cam;
+
+      int64 r;
+
+      int64 g;
+
+      int64 b;
+    };
+    struct CamAndColor_Response {
+      int64 posx1;
+
+      int64 posy1;
+
+      int64 posx2;
+
+      int64 posy2;
+
+      int64 width;
+
+      int64 height;
+    };
+  };
+};

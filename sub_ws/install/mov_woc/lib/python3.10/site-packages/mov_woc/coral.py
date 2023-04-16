@@ -4,15 +4,25 @@ from common_interfaces.srv import Capture2model
 
 import rclpy
 from rclpy.node import Node
+import cv2
+import time
+
 
 class minimal(Node):
 
     def __init__(self):
         super().__init__('coral_service')
         self.srv = self.create_service(Capture2model, 'Capture2model', self.coral2model)
+        self.cap = cv2.VideoCapture(0)
+        self.width = 2560
+        self.height = 1440
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.height)
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.width)
 
     def coral2model(self, request, response):
+        
         if request.input == True:
+
             response.quantity = 100
         else:
             response.quantity = 50

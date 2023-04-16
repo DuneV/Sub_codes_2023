@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from com_interfaces/srv/Capture2model.srv
+// generated code does not contain a copyright notice
+
+
+module com_interfaces {
+  module srv {
+    struct Capture2model_Request {
+      @verbatim (language="comment", text=
+        "enable/disable camera shots")
+      boolean input;
+    };
+    struct Capture2model_Response {
+      @verbatim (language="comment", text=
+        "the number of images that take")
+      int64 quantity;
+    };
+  };
+};

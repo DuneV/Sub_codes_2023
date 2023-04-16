@@ -1,0 +1,10 @@
+{
+  "package_name": "com_interfaces",
+  "non_idl_tuples": [
+    "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces:msg/Num.msg",
+    "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces:msg/Sphere.msg",
+    "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces:srv/AddThreeInts.srv",
+    "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces:srv/CamAndColor.srv",
+    "/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces:srv/Capture2model.srv"
+  ]
+}

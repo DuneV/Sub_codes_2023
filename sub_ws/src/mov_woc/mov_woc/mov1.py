@@ -16,6 +16,7 @@ class Ds4Control(Node):
     def __init__(self):
 
         super().__init__("conversor")
+
         self.subscription = self.create_subscription(
             Joy,
             '/joy',
@@ -25,33 +26,34 @@ class Ds4Control(Node):
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
 
     def listener_callback(self, msg):
+
         twistMessage = Twist()
         self.buttons = msg.buttons
         self.axes = msg.axes
 
-        if self.buttons[11]>0:
+        if self.buttons[11] > 0:
 
-            twistMessage.linear.y = 1.0
+            twistMessage.linear.y = 81.0 # evalua
 
-        elif self.buttons[12]<0:
+        elif self.buttons[12] > 0:
 
-            twistMessage.linear.y = -1.0
+            twistMessage.linear.y = 21.0 # evalua
 
-        elif self.buttons[14]<0:
+        elif self.buttons[14] > 0:
 
-            twistMessage.linear.x = 1.0
+            twistMessage.linear.x = 1.0 #evalua
 
-        elif self.buttons[13]>0:
+        elif self.buttons[13] > 0:
 
             twistMessage.linear.x = -1.0
 
         elif self.buttons[10]>0:
 
-            twistMessage.linear.z = -1.0
+            twistMessage.linear.z = -1.0 #eva
 
         elif self.buttons[9]>0:
 
-            twistMessage.linear.z = 1.0
+            twistMessage.linear.z = 1.0 #eva
 
         else:
 

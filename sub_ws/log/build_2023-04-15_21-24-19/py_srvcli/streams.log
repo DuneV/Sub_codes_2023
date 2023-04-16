@@ -1,0 +1,33 @@
+[1.875s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.251s] running egg_info
+[2.253s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[2.254s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.254s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.254s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.256s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.256s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.257s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.258s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.259s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.259s] running build
+[2.259s] running build_py
+[2.260s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build
+[2.260s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib
+[2.260s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib/py_srvcli
+[2.261s] copying py_srvcli/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib/py_srvcli
+[2.261s] running install
+[2.262s] running install_lib
+[2.263s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.263s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.264s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[2.264s] running install_data
+[2.264s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index
+[2.264s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index/resource_index
+[2.265s] creating /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[2.265s] copying resource/py_srvcli -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[2.265s] copying package.xml -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli
+[2.265s] running install_egg_info
+[2.267s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.267s] running install_scripts
+[2.288s] writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log'
+[2.324s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log --single-version-externally-managed

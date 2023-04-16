@@ -1,1 +1,0 @@
-/home/krita/sub_ws/src/mov_woc/setup.py

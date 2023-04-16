@@ -1,0 +1,22 @@
+[9.149s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log --single-version-externally-managed
+[9.595s] running egg_info
+[9.596s] writing ../../build/ds4drv/ds4drv.egg-info/PKG-INFO
+[9.743s] writing dependency_links to ../../build/ds4drv/ds4drv.egg-info/dependency_links.txt
+[9.743s] writing entry points to ../../build/ds4drv/ds4drv.egg-info/entry_points.txt
+[9.743s] writing requirements to ../../build/ds4drv/ds4drv.egg-info/requires.txt
+[9.754s] writing top-level names to ../../build/ds4drv/ds4drv.egg-info/top_level.txt
+[10.004s] reading manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[10.069s] reading manifest template 'MANIFEST.in'
+[10.069s] adding license file 'LICENSE'
+[10.071s] writing manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[10.168s] running build
+[10.168s] running build_py
+[10.173s] running install
+[10.174s] running install_lib
+[10.179s] running install_egg_info
+[10.183s] removing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info' (and everything under it)
+[10.183s] Copying ../../build/ds4drv/ds4drv.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info
+[10.185s] running install_scripts
+[10.227s] Installing ds4drv script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/bin
+[10.559s] writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log'
+[12.949s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log --single-version-externally-managed

@@ -1,0 +1,26 @@
+[3.292s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log --single-version-externally-managed
+[3.693s] running egg_info
+[3.694s] writing ../../build/mov_woc/mov_woc.egg-info/PKG-INFO
+[3.694s] writing dependency_links to ../../build/mov_woc/mov_woc.egg-info/dependency_links.txt
+[3.695s] writing entry points to ../../build/mov_woc/mov_woc.egg-info/entry_points.txt
+[3.695s] writing requirements to ../../build/mov_woc/mov_woc.egg-info/requires.txt
+[3.695s] writing top-level names to ../../build/mov_woc/mov_woc.egg-info/top_level.txt
+[3.698s] reading manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[3.700s] writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[3.700s] running build
+[3.700s] running build_py
+[3.701s] copying mov_woc/coral.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc
+[3.701s] running install
+[3.702s] running install_lib
+[3.703s] copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/coral.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc
+[3.704s] byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/coral.py to coral.cpython-310.pyc
+[3.706s] running install_data
+[3.707s] running install_egg_info
+[3.709s] removing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info' (and everything under it)
+[3.710s] Copying ../../build/mov_woc/mov_woc.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info
+[3.712s] running install_scripts
+[3.739s] Installing client script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc
+[3.740s] Installing conversor script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc
+[3.740s] Installing service script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc
+[3.740s] writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log'
+[3.776s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log --single-version-externally-managed

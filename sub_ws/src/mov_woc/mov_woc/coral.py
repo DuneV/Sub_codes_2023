@@ -1,35 +1,68 @@
 #! /usr/bin/env python3
 
 from com_interfaces.srv import Capture2model
-
+import time
 import rclpy
 from rclpy.node import Node
+import os
 import cv2
-import time
 
 
 class minimal(Node):
 
     def __init__(self):
+        
         super().__init__('coral_service')
+        self.value = int(input("Number of photos: "))
         self.srv = self.create_service(Capture2model, 'Capture2model', self.coral2model)
-        self.cap = cv2.VideoCapture(0)
+        self.num = 0
+        self.cap = cv2.VideoCapture(self.num, cv2.CAP_V4L)
+        self.basename = "coral"
         self.width = 2560
         self.height = 1440
+        self.flag = True
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.height)
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.width)
+        self.cnt = 0
 
     def coral2model(self, request, response):
         
         if request.input == True:
 
-            response.quantity = 100
+            while self.flag:
+
+                self.capture_im(self.cnt)
+
+                self.cnt += 1
+                # print(self.cnt)
+                if self.cnt > self.value - 1:
+
+                    self.flag = False
+
+            response.quantity = self.cnt
+            self.cap.release()
         else:
-            response.quantity = 50
+            response.quantity = 0
         
         return response
     
+    def capture_im(self, number):
+
+        self.lecture, self.frame = self.cap.read()
+
+        outfile = '%s_%s.png' % (number, self.basename)
+        print(outfile)
+        if self.lecture == True:
+            # print(number)
+            try:
+                cv2.imwrite(outfile, self.frame)
+            except:
+                print('failed image...')
+        
+        # self.cap.release()
+
 def main(args=None):
+
     rclpy.init(args=args)
     min_service = minimal()
     

@@ -1,0 +1,20 @@
+[1.917s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.302s] running egg_info
+[2.306s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.307s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.308s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.308s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.309s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.311s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.312s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.312s] running build
+[2.313s] running build_py
+[2.313s] running install
+[2.313s] running install_lib
+[2.315s] running install_data
+[2.316s] running install_egg_info
+[2.318s] removing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[2.318s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.319s] running install_scripts
+[2.349s] writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log'
+[2.379s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log --single-version-externally-managed

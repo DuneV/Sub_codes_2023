@@ -13,7 +13,7 @@ class client_pro(Node):
         self.req = Capture2model.Request()
 
     def send_request(self):
-        self.req.input = False
+        self.req.input = True
         self.future = self.cli.call_async(self.req)
 
 def main(args=None):

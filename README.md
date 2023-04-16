@@ -1,6 +1,6 @@
 # Submarine Repository
 
-This repository corresponds to a series of open source code developed in python and c++ for systems based on ROS2 and other platforms. Each package will have its execution requirements or possible libraries necessary for the construction and execution of these.
+This repository corresponds to a series of open source code developed in python and c++ for systems based on ROS2 and other platforms for the project Submarine belong to ROBOCOL Uniandes. Each package will have its execution requirements or possible libraries necessary for the construction and execution of these.
 
 ## Starting 🚀
 

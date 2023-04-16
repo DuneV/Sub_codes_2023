@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from mov_woc.srv import capture2model
+from common_interfaces.srv import Capture2model
 
 import rclpy
 from rclpy.node import Node
@@ -9,7 +9,7 @@ class minimal(Node):
 
     def __init__(self):
         super().__init__('coral_service')
-        self.srv = self.create_service(capture2model, 'Capture2model', self.coral2model)
+        self.srv = self.create_service(Capture2model, 'Capture2model', self.coral2model)
 
     def coral2model(self, request, response):
         if request.input == True:

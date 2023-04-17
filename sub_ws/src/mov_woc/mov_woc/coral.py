@@ -13,9 +13,10 @@ class minimal(Node):
     def __init__(self):
         
         super().__init__('coral_service')
-        self.value = int(input("Number of photos: "))
+        self.value = int(input('Number of photos: '))
         self.srv = self.create_service(Capture2model, 'Capture2model', self.coral2model)
-        self.num = 0
+        self.num = 1 # cambiar dependiendo de camara sudo v4l2-ctl --list-devices
+        self.path = '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc/mov_woc/images_coral'
         self.cap = cv2.VideoCapture(self.num, cv2.CAP_V4L)
         self.basename = "coral"
         self.width = 2560
@@ -34,6 +35,7 @@ class minimal(Node):
                 self.capture_im(self.cnt)
 
                 self.cnt += 1
+                time.sleep(0.6)
                 # print(self.cnt)
                 if self.cnt > self.value - 1:
 
@@ -55,7 +57,7 @@ class minimal(Node):
         if self.lecture == True:
             # print(number)
             try:
-                cv2.imwrite(outfile, self.frame)
+                cv2.imwrite(os.path.join(self.path, outfile), self.frame)
             except:
                 print('failed image...')
         

@@ -1,0 +1,305 @@
+[5.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.174s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9b020fb790>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9b020fb220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9b020fb220>>)
+[5.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.402s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws'
+[5.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extension 'ignore'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extension 'ignore_ament_install'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extensions ['colcon_pkg']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extension 'colcon_pkg'
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extensions ['colcon_meta']
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extension 'colcon_meta'
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extensions ['ros']
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/com_interfaces) by extension 'ros'
+[5.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/com_interfaces' with type 'ros.ament_cmake' and name 'com_interfaces'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['ignore', 'ignore_ament_install']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ignore'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ignore_ament_install'
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['colcon_pkg']
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'colcon_pkg'
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['colcon_meta']
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'colcon_meta'
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['ros']
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ros'
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['cmake', 'python']
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'cmake'
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'python'
+[5.563s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/ds4drv' passes arguments to the setup() function which requires a different identification extension than 'python'
+[5.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['python_setup_py']
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'python_setup_py'
+[5.968s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4drv' with type 'python' and name 'ds4drv'
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['ignore', 'ignore_ament_install']
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'ignore'
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'ignore_ament_install'
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['colcon_pkg']
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'colcon_pkg'
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['colcon_meta']
+[5.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'colcon_meta'
+[5.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extensions ['ros']
+[5.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/mov_woc) by extension 'ros'
+[5.987s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mov_woc' with type 'ros.ament_python' and name 'mov_woc'
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[5.998s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[5.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[6.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.758s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'cmake_args' from command line to 'None'
+[8.758s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'cmake_target' from command line to 'None'
+[8.758s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.759s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[8.759s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[8.759s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[8.759s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[8.759s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[8.759s] Level 5:colcon.colcon_core.verb:set package 'com_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.759s] DEBUG:colcon.colcon_core.verb:Building package 'com_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces', 'merge_install': False, 'path': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces', 'symlink_install': False, 'test_result_base': None}
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_args' from command line to 'None'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_target' from command line to 'None'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_clean_cache' from command line to 'False'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_clean_first' from command line to 'False'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_force_configure' from command line to 'False'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'ament_cmake_args' from command line to 'None'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'catkin_cmake_args' from command line to 'None'
+[8.760s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.760s] DEBUG:colcon.colcon_core.verb:Building package 'ds4drv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv', 'merge_install': False, 'path': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv', 'symlink_install': False, 'test_result_base': None}
+[8.761s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_args' from command line to 'None'
+[8.761s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_target' from command line to 'None'
+[8.761s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.761s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_clean_cache' from command line to 'False'
+[8.761s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_clean_first' from command line to 'False'
+[8.761s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'cmake_force_configure' from command line to 'False'
+[8.762s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'ament_cmake_args' from command line to 'None'
+[8.762s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'catkin_cmake_args' from command line to 'None'
+[8.762s] Level 5:colcon.colcon_core.verb:set package 'mov_woc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.762s] DEBUG:colcon.colcon_core.verb:Building package 'mov_woc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc', 'merge_install': False, 'path': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc', 'symlink_install': False, 'test_result_base': None}
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[8.763s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.763s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[8.764s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces' with build type 'ament_cmake'
+[8.767s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/com_interfaces'
+[8.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.029s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv'
+[9.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.054s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc' with build type 'ament_python'
+[9.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('mov_woc', 'ament_prefix_path')
+[9.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/hook/ament_prefix_path.ps1'
+[9.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/hook/ament_prefix_path.dsv'
+[9.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/hook/ament_prefix_path.sh'
+[9.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.219s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli' with build type 'ament_python'
+[9.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[9.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[9.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[9.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[9.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --build /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces -- -j8 -l8
+[10.276s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc'
+[10.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.644s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli'
+[10.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log --single-version-externally-managed
+[16.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log --single-version-externally-managed
+[16.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log --single-version-externally-managed
+[17.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log --single-version-externally-managed
+[18.713s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli' for CMake module files
+[18.713s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli' for CMake config files
+[18.714s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib'
+[18.714s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/bin'
+[18.714s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[18.715s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages'
+[18.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[18.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[18.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[18.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[18.887s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/bin'
+[18.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[18.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[19.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[19.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[19.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[19.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[19.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[19.969s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv' for CMake module files
+[19.977s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv' for CMake config files
+[19.980s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib'
+[19.981s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/bin'
+[19.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4drv', 'path')
+[19.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/path.ps1'
+[20.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/path.dsv'
+[20.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log --single-version-externally-managed
+[20.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/path.sh'
+[20.570s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/pkgconfig/ds4drv.pc'
+[20.572s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages'
+[20.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4drv', 'pythonpath')
+[20.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/pythonpath.ps1'
+[20.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/pythonpath.dsv'
+[20.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/pythonpath.sh'
+[20.745s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/bin'
+[20.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4drv', 'pythonscriptspath')
+[20.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/pythonscriptspath.ps1'
+[20.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/pythonscriptspath.dsv'
+[21.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/hook/pythonscriptspath.sh'
+[21.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4drv)
+[21.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/package.ps1'
+[21.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/package.dsv'
+[21.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/package.sh'
+[21.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/package.bash'
+[21.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/ds4drv/package.zsh'
+[21.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/share/colcon-core/packages/ds4drv)
+[21.601s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc' for CMake module files
+[21.650s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc' for CMake config files
+[21.652s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib'
+[21.653s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/bin'
+[21.653s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/pkgconfig/mov_woc.pc'
+[21.654s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages'
+[21.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('mov_woc', 'pythonpath')
+[21.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/hook/pythonpath.ps1'
+[21.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/hook/pythonpath.dsv'
+[21.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc' returned '0': PYTHONPATH=/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build install --record /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log --single-version-externally-managed
+[22.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/hook/pythonpath.sh'
+[22.420s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/bin'
+[22.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mov_woc)
+[22.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/package.ps1'
+[22.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/package.dsv'
+[22.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/package.sh'
+[23.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/package.bash'
+[23.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc/package.zsh'
+[24.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/share/colcon-core/packages/mov_woc)
+[51.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --build /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces -- -j8 -l8
+[51.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --install /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces
+[52.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com_interfaces)
+[52.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --install /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces
+[52.188s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces' for CMake module files
+[52.190s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces' for CMake config files
+[52.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('com_interfaces', 'cmake_prefix_path')
+[52.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/cmake_prefix_path.ps1'
+[52.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/cmake_prefix_path.dsv'
+[52.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/cmake_prefix_path.sh'
+[52.202s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib'
+[52.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('com_interfaces', 'ld_library_path_lib')
+[52.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/ld_library_path_lib.ps1'
+[52.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/ld_library_path_lib.dsv'
+[52.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/ld_library_path_lib.sh'
+[52.225s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/bin'
+[52.226s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/pkgconfig/com_interfaces.pc'
+[52.226s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/python3.10/site-packages'
+[52.226s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/bin'
+[52.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.ps1'
+[52.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.dsv'
+[52.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.sh'
+[52.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.bash'
+[52.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.zsh'
+[52.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/colcon-core/packages/com_interfaces)
+[52.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com_interfaces)
+[52.333s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces' for CMake module files
+[52.333s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces' for CMake config files
+[52.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('com_interfaces', 'cmake_prefix_path')
+[52.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/cmake_prefix_path.ps1'
+[52.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/cmake_prefix_path.dsv'
+[52.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/cmake_prefix_path.sh'
+[52.363s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib'
+[52.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('com_interfaces', 'ld_library_path_lib')
+[52.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/ld_library_path_lib.ps1'
+[52.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/ld_library_path_lib.dsv'
+[52.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/hook/ld_library_path_lib.sh'
+[52.366s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/bin'
+[52.366s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/pkgconfig/com_interfaces.pc'
+[52.366s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/python3.10/site-packages'
+[52.366s] Level 1:colcon.colcon_core.environment:checking '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/bin'
+[52.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.ps1'
+[52.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.dsv'
+[52.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.sh'
+[52.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.bash'
+[52.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.zsh'
+[52.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/colcon-core/packages/com_interfaces)
+[52.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[52.371s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[53.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[53.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[53.011s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[53.184s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[53.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/local_setup.ps1'
+[53.269s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/_local_setup_util_ps1.py'
+[53.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/setup.ps1'
+[53.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/local_setup.sh'
+[53.693s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/_local_setup_util_sh.py'
+[53.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/setup.sh'
+[53.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/local_setup.bash'
+[53.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/setup.bash'
+[53.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/local_setup.zsh'
+[54.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/setup.zsh'

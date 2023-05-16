@@ -15,7 +15,7 @@ class minimal(Node):
         super().__init__('coral_service')
         self.value = int(input('Number of photos: '))
         self.srv = self.create_service(Capture2model, 'Capture2model', self.coral2model)
-        self.num = 5
+        self.num = 1 # cambiar dependiendo de camara sudo v4l2-ctl --list-devices
         self.path = '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc/mov_woc/images_coral'
         self.cap = cv2.VideoCapture(self.num, cv2.CAP_V4L)
         self.basename = "coral"

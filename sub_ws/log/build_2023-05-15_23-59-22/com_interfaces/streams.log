@@ -1,0 +1,240 @@
+[0.780s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --build /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces -- -j8 -l8
+[8.156s] [  0%] Built target ament_cmake_python_copy_com_interfaces
+[8.187s] [  1%] Built target com_interfaces__cpp
+[8.559s] running egg_info
+[8.560s] writing com_interfaces.egg-info/PKG-INFO
+[8.631s] writing dependency_links to com_interfaces.egg-info/dependency_links.txt
+[8.632s] writing top-level names to com_interfaces.egg-info/top_level.txt
+[8.644s] reading manifest file 'com_interfaces.egg-info/SOURCES.txt'
+[8.647s] writing manifest file 'com_interfaces.egg-info/SOURCES.txt'
+[8.727s] [  1%] Built target ament_cmake_python_build_com_interfaces_egg
+[9.023s] [ 15%] Built target com_interfaces__rosidl_generator_c
+[9.023s] [ 23%] Built target com_interfaces__rosidl_typesupport_cpp
+[9.024s] [ 34%] Built target com_interfaces__rosidl_typesupport_introspection_cpp
+[9.026s] [ 46%] Built target com_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.174s] [ 57%] Built target com_interfaces__rosidl_typesupport_c
+[9.233s] [ 68%] Built target com_interfaces__rosidl_typesupport_introspection_c
+[9.234s] [ 79%] Built target com_interfaces__rosidl_typesupport_fastrtps_c
+[9.571s] [ 79%] Built target com_interfaces
+[9.802s] [ 80%] Built target com_interfaces__py
+[9.995s] [ 90%] Built target com_interfaces__rosidl_generator_py
+[10.158s] [ 93%] Built target com_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.159s] [ 96%] Built target com_interfaces__rosidl_typesupport_c__pyext
+[10.159s] [100%] Built target com_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.175s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --build /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces -- -j8 -l8
+[10.438s] Invoking command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --install /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces
+[10.689s] -- Install configuration: ""
+[10.691s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/rosidl_interfaces/com_interfaces
+[10.692s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces
+[10.692s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv
+[10.693s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/add_three_ints.h
+[10.693s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/cam_and_color.h
+[10.694s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail
+[10.697s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__functions.h
+[10.698s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__functions.c
+[10.699s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__functions.c
+[10.700s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.h
+[10.700s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__functions.c
+[10.700s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__struct.h
+[10.701s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__struct.h
+[10.701s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__struct.h
+[10.702s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.h
+[10.702s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__functions.h
+[10.702s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__functions.h
+[10.703s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.h
+[10.703s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/capture2model.h
+[10.703s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg
+[10.703s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/sphere.h
+[10.704s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/num.h
+[10.704s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.704s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail
+[10.704s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__struct.h
+[10.705s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__functions.c
+[10.705s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__functions.h
+[10.705s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.h
+[10.705s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__struct.h
+[10.706s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.h
+[10.706s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__functions.h
+[10.706s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__functions.c
+[10.706s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/library_path.sh
+[10.706s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/library_path.dsv
+[10.742s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_c.so
+[10.742s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces
+[10.742s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv
+[10.743s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail
+[10.743s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_c.h
+[10.743s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[10.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_c.h
+[10.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg
+[10.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.744s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail
+[10.745s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[10.745s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[10.745s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.746s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces
+[10.746s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv
+[10.746s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/capture2model.hpp
+[10.746s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail
+[10.746s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__struct.hpp
+[10.747s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__struct.hpp
+[10.747s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__builder.hpp
+[10.747s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__builder.hpp
+[10.747s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__builder.hpp
+[10.747s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__traits.hpp
+[10.748s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__traits.hpp
+[10.748s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__struct.hpp
+[10.748s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__traits.hpp
+[10.748s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/cam_and_color.hpp
+[10.748s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/add_three_ints.hpp
+[10.749s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg
+[10.749s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/num.hpp
+[10.749s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/sphere.hpp
+[10.749s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail
+[10.750s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__struct.hpp
+[10.750s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__builder.hpp
+[10.750s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__builder.hpp
+[10.750s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__struct.hpp
+[10.751s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__traits.hpp
+[10.751s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__traits.hpp
+[10.751s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces
+[10.751s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv
+[10.751s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail
+[10.751s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_cpp.hpp
+[10.752s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[10.752s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_cpp.hpp
+[10.752s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/dds_fastrtps
+[10.752s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg
+[10.752s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.752s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail
+[10.753s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[10.753s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[10.753s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/dds_fastrtps
+[10.753s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.753s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces
+[10.753s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv
+[10.754s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail
+[10.754s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_c.h
+[10.754s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_c.h
+[10.754s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.c
+[10.754s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.c
+[10.754s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.c
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.c
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[10.755s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[10.756s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.c
+[10.756s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_c.so
+[10.756s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_c.so
+[10.756s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces
+[10.756s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv
+[10.756s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_cpp.hpp
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_cpp.hpp
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.cpp
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.cpp
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.cpp
+[10.757s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.cpp
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.cpp
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.758s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_cpp.so
+[10.759s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/pythonpath.sh
+[10.759s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/pythonpath.dsv
+[10.759s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info
+[10.759s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.759s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.759s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.759s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.760s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces
+[10.760s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.760s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv
+[10.760s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model.py
+[10.760s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model_s.c
+[10.760s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints_s.c
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color.py
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color_s.c
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/__init__.py
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints.py
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/libcom_interfaces__rosidl_generator_py.so
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg
+[10.761s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere.py
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num_s.c
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere_s.c
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num.py
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/__init__.py
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.762s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.763s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.763s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_c.c
+[10.763s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/__init__.py
+[11.109s] Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces'...
+[11.109s] Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg'...
+[11.109s] Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv'...
+[11.114s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.114s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.114s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.115s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_py.so
+[11.115s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Num.idl
+[11.115s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Sphere.idl
+[11.115s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts.idl
+[11.115s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor.idl
+[11.115s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model.idl
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Num.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Sphere.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts.srv
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts_Request.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts_Response.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor.srv
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor_Request.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor_Response.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model.srv
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model_Request.msg
+[11.116s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model_Response.msg
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/package_run_dependencies/com_interfaces
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/parent_prefix_path/com_interfaces
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/ament_prefix_path.sh
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/ament_prefix_path.dsv
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/path.sh
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/path.dsv
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.bash
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.sh
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.zsh
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.dsv
+[11.117s] -- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.dsv
+[11.117s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/packages/com_interfaces
+[11.135s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cExport.cmake
+[11.135s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.278s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.279s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.304s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cppExport.cmake
+[11.475s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.476s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.487s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.487s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.495s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cExport.cmake
+[11.496s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.578s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.579s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.580s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cppExport.cmake
+[11.581s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.592s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_pyExport.cmake
+[11.592s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.592s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.593s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.593s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.593s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.593s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.593s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.594s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.594s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfacesConfig.cmake
+[11.594s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfacesConfig-version.cmake
+[11.594s] -- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.xml
+[11.613s] Invoked command in '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/krita/.local/bin/cmake --install /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces

@@ -1,0 +1,463 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (com_interfaces) JobQueued: {'identifier': 'com_interfaces', 'dependencies': OrderedDict()}
+[0.000248] (ds4drv) JobQueued: {'identifier': 'ds4drv', 'dependencies': OrderedDict()}
+[0.000306] (mov_woc) JobQueued: {'identifier': 'mov_woc', 'dependencies': OrderedDict()}
+[0.000338] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.001152] (com_interfaces) JobStarted: {'identifier': 'com_interfaces'}
+[0.099854] (-) TimerEvent: {}
+[0.200394] (-) TimerEvent: {}
+[0.301003] (-) TimerEvent: {}
+[0.401657] (-) TimerEvent: {}
+[0.503435] (-) TimerEvent: {}
+[0.526090] (ds4drv) JobStarted: {'identifier': 'ds4drv'}
+[0.559566] (mov_woc) JobStarted: {'identifier': 'mov_woc'}
+[0.604326] (-) TimerEvent: {}
+[0.677291] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.709622] (-) TimerEvent: {}
+[0.726963] (com_interfaces) JobProgress: {'identifier': 'com_interfaces', 'progress': 'cmake'}
+[0.774766] (com_interfaces) JobProgress: {'identifier': 'com_interfaces', 'progress': 'build'}
+[0.778855] (com_interfaces) Command: {'cmd': ['/home/krita/.local/bin/cmake', '--build', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'krita'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/krita'), ('OLDPWD', '/home/krita/Documents/GitHub/Sub_codes_2023'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2151'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'krita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krita'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krita:@/tmp/.ICE-unix/2133,unix/krita:/tmp/.ICE-unix/2133'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/484eec49_886d_47b5_9e4a_962375f125ef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7BT641'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.809818] (-) TimerEvent: {}
+[0.933388] (-) TimerEvent: {}
+[1.034307] (-) TimerEvent: {}
+[1.134603] (-) TimerEvent: {}
+[1.234872] (-) TimerEvent: {}
+[1.335206] (-) TimerEvent: {}
+[1.435581] (-) TimerEvent: {}
+[1.535876] (-) TimerEvent: {}
+[1.636250] (-) TimerEvent: {}
+[1.736525] (-) TimerEvent: {}
+[1.836965] (-) TimerEvent: {}
+[1.937304] (-) TimerEvent: {}
+[2.037535] (-) TimerEvent: {}
+[2.137904] (-) TimerEvent: {}
+[2.238503] (-) TimerEvent: {}
+[2.339317] (-) TimerEvent: {}
+[2.439781] (-) TimerEvent: {}
+[2.540404] (-) TimerEvent: {}
+[2.641480] (-) TimerEvent: {}
+[2.742105] (-) TimerEvent: {}
+[2.842746] (-) TimerEvent: {}
+[2.943050] (-) TimerEvent: {}
+[3.043376] (-) TimerEvent: {}
+[3.143670] (-) TimerEvent: {}
+[3.244067] (-) TimerEvent: {}
+[3.344675] (-) TimerEvent: {}
+[3.445280] (-) TimerEvent: {}
+[3.545888] (-) TimerEvent: {}
+[3.646529] (-) TimerEvent: {}
+[3.747151] (-) TimerEvent: {}
+[3.847758] (-) TimerEvent: {}
+[3.948381] (-) TimerEvent: {}
+[4.048998] (-) TimerEvent: {}
+[4.149663] (-) TimerEvent: {}
+[4.250461] (-) TimerEvent: {}
+[4.351078] (-) TimerEvent: {}
+[4.451709] (-) TimerEvent: {}
+[4.552319] (-) TimerEvent: {}
+[4.652956] (-) TimerEvent: {}
+[4.753589] (-) TimerEvent: {}
+[4.854349] (-) TimerEvent: {}
+[4.954875] (-) TimerEvent: {}
+[5.055485] (-) TimerEvent: {}
+[5.155870] (-) TimerEvent: {}
+[5.256491] (-) TimerEvent: {}
+[5.357103] (-) TimerEvent: {}
+[5.457736] (-) TimerEvent: {}
+[5.558375] (-) TimerEvent: {}
+[5.659042] (-) TimerEvent: {}
+[5.759774] (-) TimerEvent: {}
+[5.860423] (-) TimerEvent: {}
+[5.961193] (-) TimerEvent: {}
+[6.061874] (-) TimerEvent: {}
+[6.162526] (-) TimerEvent: {}
+[6.263078] (-) TimerEvent: {}
+[6.363952] (-) TimerEvent: {}
+[6.464557] (-) TimerEvent: {}
+[6.565187] (-) TimerEvent: {}
+[6.665952] (-) TimerEvent: {}
+[6.766596] (-) TimerEvent: {}
+[6.867224] (-) TimerEvent: {}
+[6.967875] (-) TimerEvent: {}
+[7.068619] (-) TimerEvent: {}
+[7.169291] (-) TimerEvent: {}
+[7.269947] (-) TimerEvent: {}
+[7.370606] (-) TimerEvent: {}
+[7.471242] (-) TimerEvent: {}
+[7.571905] (-) TimerEvent: {}
+[7.672541] (-) TimerEvent: {}
+[7.773167] (-) TimerEvent: {}
+[7.873868] (-) TimerEvent: {}
+[7.974532] (-) TimerEvent: {}
+[8.075218] (-) TimerEvent: {}
+[8.156642] (com_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_com_interfaces\n'}
+[8.175408] (-) TimerEvent: {}
+[8.187314] (com_interfaces) StdoutLine: {'line': b'[  1%] Built target com_interfaces__cpp\n'}
+[8.275595] (-) TimerEvent: {}
+[8.378725] (-) TimerEvent: {}
+[8.479033] (-) TimerEvent: {}
+[8.560506] (com_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.561102] (com_interfaces) StdoutLine: {'line': b'writing com_interfaces.egg-info/PKG-INFO\n'}
+[8.579218] (-) TimerEvent: {}
+[8.632277] (com_interfaces) StdoutLine: {'line': b'writing dependency_links to com_interfaces.egg-info/dependency_links.txt\n'}
+[8.632917] (com_interfaces) StdoutLine: {'line': b'writing top-level names to com_interfaces.egg-info/top_level.txt\n'}
+[8.644415] (com_interfaces) StdoutLine: {'line': b"reading manifest file 'com_interfaces.egg-info/SOURCES.txt'\n"}
+[8.647880] (com_interfaces) StdoutLine: {'line': b"writing manifest file 'com_interfaces.egg-info/SOURCES.txt'\n"}
+[8.679356] (-) TimerEvent: {}
+[8.728064] (com_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_com_interfaces_egg\n'}
+[8.779516] (-) TimerEvent: {}
+[8.880589] (-) TimerEvent: {}
+[8.981357] (-) TimerEvent: {}
+[9.023439] (com_interfaces) StdoutLine: {'line': b'[ 15%] Built target com_interfaces__rosidl_generator_c\n'}
+[9.024321] (com_interfaces) StdoutLine: {'line': b'[ 23%] Built target com_interfaces__rosidl_typesupport_cpp\n'}
+[9.025222] (com_interfaces) StdoutLine: {'line': b'[ 34%] Built target com_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.026484] (com_interfaces) StdoutLine: {'line': b'[ 46%] Built target com_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.081499] (-) TimerEvent: {}
+[9.174660] (com_interfaces) StdoutLine: {'line': b'[ 57%] Built target com_interfaces__rosidl_typesupport_c\n'}
+[9.181639] (-) TimerEvent: {}
+[9.233833] (com_interfaces) StdoutLine: {'line': b'[ 68%] Built target com_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.235010] (com_interfaces) StdoutLine: {'line': b'[ 79%] Built target com_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.281796] (-) TimerEvent: {}
+[9.382469] (-) TimerEvent: {}
+[9.483078] (-) TimerEvent: {}
+[9.571991] (com_interfaces) StdoutLine: {'line': b'[ 79%] Built target com_interfaces\n'}
+[9.583237] (-) TimerEvent: {}
+[9.683890] (-) TimerEvent: {}
+[9.784749] (-) TimerEvent: {}
+[9.803202] (com_interfaces) StdoutLine: {'line': b'[ 80%] Built target com_interfaces__py\n'}
+[9.884912] (-) TimerEvent: {}
+[9.985520] (-) TimerEvent: {}
+[9.995783] (com_interfaces) StdoutLine: {'line': b'[ 90%] Built target com_interfaces__rosidl_generator_py\n'}
+[10.085660] (-) TimerEvent: {}
+[10.158939] (com_interfaces) StdoutLine: {'line': b'[ 93%] Built target com_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.159549] (com_interfaces) StdoutLine: {'line': b'[ 96%] Built target com_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.159973] (com_interfaces) StdoutLine: {'line': b'[100%] Built target com_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.175640] (com_interfaces) CommandEnded: {'returncode': 0}
+[10.185755] (-) TimerEvent: {}
+[10.286212] (-) TimerEvent: {}
+[10.294299] (com_interfaces) JobProgress: {'identifier': 'com_interfaces', 'progress': 'install'}
+[10.386381] (-) TimerEvent: {}
+[10.436144] (com_interfaces) Command: {'cmd': ['/home/krita/.local/bin/cmake', '--install', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces'], 'cwd': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'krita'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/krita'), ('OLDPWD', '/home/krita/Documents/GitHub/Sub_codes_2023'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2151'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'krita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krita'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krita:@/tmp/.ICE-unix/2133,unix/krita:/tmp/.ICE-unix/2133'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/484eec49_886d_47b5_9e4a_962375f125ef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7BT641'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/com_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.486527] (-) TimerEvent: {}
+[10.587014] (-) TimerEvent: {}
+[10.687827] (-) TimerEvent: {}
+[10.689613] (com_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.691451] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/rosidl_interfaces/com_interfaces\n'}
+[10.692742] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[10.693307] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[10.693814] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/add_three_ints.h\n'}
+[10.694310] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/cam_and_color.h\n'}
+[10.694839] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[10.697783] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__functions.h\n'}
+[10.698705] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[10.699817] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__functions.c\n'}
+[10.700553] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.h\n'}
+[10.700997] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__functions.c\n'}
+[10.701407] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__struct.h\n'}
+[10.701796] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[10.702134] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__struct.h\n'}
+[10.702472] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.h\n'}
+[10.702797] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__functions.h\n'}
+[10.703106] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[10.703423] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[10.703797] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/capture2model.h\n'}
+[10.704119] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[10.704456] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/sphere.h\n'}
+[10.704777] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/num.h\n'}
+[10.705008] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.705237] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[10.705464] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__struct.h\n'}
+[10.705688] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__functions.c\n'}
+[10.705940] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__functions.h\n'}
+[10.706162] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.h\n'}
+[10.706400] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__struct.h\n'}
+[10.706632] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.h\n'}
+[10.706854] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__functions.h\n'}
+[10.707074] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__functions.c\n'}
+[10.707296] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/library_path.sh\n'}
+[10.707528] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/library_path.dsv\n'}
+[10.742509] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_c.so\n'}
+[10.742985] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[10.743371] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[10.743602] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[10.743822] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_c.h\n'}
+[10.744114] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[10.744493] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_c.h\n'}
+[10.744818] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[10.745092] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.745507] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[10.745692] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[10.745944] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[10.746305] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.746577] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[10.746825] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[10.747061] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/capture2model.hpp\n'}
+[10.747270] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[10.747433] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__struct.hpp\n'}
+[10.747597] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[10.747759] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[10.747919] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__builder.hpp\n'}
+[10.748132] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__builder.hpp\n'}
+[10.748295] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[10.748624] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__traits.hpp\n'}
+[10.748805] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__struct.hpp\n'}
+[10.749020] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__traits.hpp\n'}
+[10.749228] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/cam_and_color.hpp\n'}
+[10.749471] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/add_three_ints.hpp\n'}
+[10.749677] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[10.749884] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/num.hpp\n'}
+[10.750089] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/sphere.hpp\n'}
+[10.750293] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[10.750607] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__struct.hpp\n'}
+[10.750955] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__builder.hpp\n'}
+[10.751271] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__builder.hpp\n'}
+[10.751454] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__struct.hpp\n'}
+[10.751638] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__traits.hpp\n'}
+[10.751815] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__traits.hpp\n'}
+[10.752020] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[10.752189] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[10.752344] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[10.752504] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.752663] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.752835] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.752983] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/dds_fastrtps\n'}
+[10.753139] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[10.753296] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.753465] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[10.753623] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.753780] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.753963] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/dds_fastrtps\n'}
+[10.754118] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.754299] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[10.754490] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[10.754652] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[10.754806] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_c.h\n'}
+[10.754961] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_c.h\n'}
+[10.755118] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.c\n'}
+[10.755274] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.c\n'}
+[10.755431] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[10.755588] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[10.755737] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[10.755879] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.756060] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[10.756214] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.c\n'}
+[10.756366] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[10.756518] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[10.756671] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.c\n'}
+[10.756830] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.756997] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_c.so\n'}
+[10.757147] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[10.757298] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[10.757448] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[10.757601] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.757768] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.757914] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.cpp\n'}
+[10.758075] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.cpp\n'}
+[10.758220] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.758360] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[10.758520] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[10.758665] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[10.758808] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.cpp\n'}
+[10.758955] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[10.759102] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.759255] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.759400] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.759543] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.759685] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/pythonpath.sh\n'}
+[10.759840] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/pythonpath.dsv\n'}
+[10.760000] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.760145] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.760291] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.760438] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.760583] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.760727] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces\n'}
+[10.760875] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.761023] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv\n'}
+[10.761165] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model.py\n'}
+[10.761308] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model_s.c\n'}
+[10.761450] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints_s.c\n'}
+[10.761614] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color.py\n'}
+[10.761768] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color_s.c\n'}
+[10.761913] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/__init__.py\n'}
+[10.762056] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints.py\n'}
+[10.762201] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/libcom_interfaces__rosidl_generator_py.so\n'}
+[10.762352] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg\n'}
+[10.762516] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere.py\n'}
+[10.762679] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num_s.c\n'}
+[10.762835] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere_s.c\n'}
+[10.762974] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num.py\n'}
+[10.763115] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/__init__.py\n'}
+[10.763249] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.763387] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.763524] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.763685] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.763826] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.763969] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/__init__.py\n'}
+[10.773928] (mov_woc) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mov_woc', 'build', '--build-base', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build', 'install', '--record', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log', '--single-version-externally-managed'], 'cwd': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/mov_woc', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'krita', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/krita', 'OLDPWD': '/home/krita/Documents/GitHub/Sub_codes_2023', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2151', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'krita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'krita', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/krita:@/tmp/.ICE-unix/2133,unix/krita:/tmp/.ICE-unix/2133', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/484eec49_886d_47b5_9e4a_962375f125ef', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7BT641', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.778406] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/build', 'install', '--record', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'krita', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/krita', 'OLDPWD': '/home/krita/Documents/GitHub/Sub_codes_2023', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2151', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'krita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'krita', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/krita:@/tmp/.ICE-unix/2133,unix/krita:/tmp/.ICE-unix/2133', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/484eec49_886d_47b5_9e4a_962375f125ef', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7BT641', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.787918] (-) TimerEvent: {}
+[10.789041] (ds4drv) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ds4drv', 'build', '--build-base', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/build', 'install', '--record', '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log', '--single-version-externally-managed'], 'cwd': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/src/ds4drv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'krita', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/krita', 'OLDPWD': '/home/krita/Documents/GitHub/Sub_codes_2023', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2151', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'krita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'krita', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/krita/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/krita:@/tmp/.ICE-unix/2133,unix/krita:/tmp/.ICE-unix/2133', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/484eec49_886d_47b5_9e4a_962375f125ef', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7BT641', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/prefix_override:/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.888012] (-) TimerEvent: {}
+[10.988393] (-) TimerEvent: {}
+[11.081771] (mov_woc) StdoutLine: {'line': b'running egg_info\n'}
+[11.082436] (mov_woc) StdoutLine: {'line': b'writing ../../build/mov_woc/mov_woc.egg-info/PKG-INFO\n'}
+[11.084111] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[11.084819] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[11.088454] (-) TimerEvent: {}
+[11.098896] (ds4drv) StdoutLine: {'line': b'running egg_info\n'}
+[11.099420] (ds4drv) StdoutLine: {'line': b'writing ../../build/ds4drv/ds4drv.egg-info/PKG-INFO\n'}
+[11.102054] (mov_woc) StdoutLine: {'line': b'writing dependency_links to ../../build/mov_woc/mov_woc.egg-info/dependency_links.txt\n'}
+[11.102294] (mov_woc) StdoutLine: {'line': b'writing entry points to ../../build/mov_woc/mov_woc.egg-info/entry_points.txt\n'}
+[11.102519] (mov_woc) StdoutLine: {'line': b'writing requirements to ../../build/mov_woc/mov_woc.egg-info/requires.txt\n'}
+[11.102653] (mov_woc) StdoutLine: {'line': b'writing top-level names to ../../build/mov_woc/mov_woc.egg-info/top_level.txt\n'}
+[11.104568] (mov_woc) StdoutLine: {'line': b"reading manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'\n"}
+[11.105423] (mov_woc) StdoutLine: {'line': b"writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'\n"}
+[11.105552] (mov_woc) StdoutLine: {'line': b'running build\n'}
+[11.105648] (mov_woc) StdoutLine: {'line': b'running build_py\n'}
+[11.105782] (mov_woc) StdoutLine: {'line': b'copying mov_woc/mov1.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc\n'}
+[11.110075] (com_interfaces) StdoutLine: {'line': b"Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces'...\n"}
+[11.110206] (com_interfaces) StdoutLine: {'line': b"Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg'...\n"}
+[11.110311] (com_interfaces) StdoutLine: {'line': b"Listing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv'...\n"}
+[11.112002] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[11.114711] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.115149] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.115538] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.115867] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_py.so\n'}
+[11.116042] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Num.idl\n'}
+[11.116173] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Sphere.idl\n'}
+[11.116258] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts.idl\n'}
+[11.116379] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor.idl\n'}
+[11.116508] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model.idl\n'}
+[11.116612] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Num.msg\n'}
+[11.116727] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Sphere.msg\n'}
+[11.116829] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts.srv\n'}
+[11.116931] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts_Request.msg\n'}
+[11.117032] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts_Response.msg\n'}
+[11.117144] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor.srv\n'}
+[11.117249] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor_Request.msg\n'}
+[11.117348] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor_Response.msg\n'}
+[11.117417] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model.srv\n'}
+[11.117502] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model_Request.msg\n'}
+[11.117571] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model_Response.msg\n'}
+[11.117638] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/package_run_dependencies/com_interfaces\n'}
+[11.117718] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/parent_prefix_path/com_interfaces\n'}
+[11.117785] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/ament_prefix_path.sh\n'}
+[11.117852] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.117919] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/path.sh\n'}
+[11.117985] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/path.dsv\n'}
+[11.118052] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.bash\n'}
+[11.118119] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.sh\n'}
+[11.118187] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.zsh\n'}
+[11.118267] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.dsv\n'}
+[11.118336] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.dsv\n'}
+[11.118411] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/packages/com_interfaces\n'}
+[11.123121] (ds4drv) StdoutLine: {'line': b'writing dependency_links to ../../build/ds4drv/ds4drv.egg-info/dependency_links.txt\n'}
+[11.123287] (ds4drv) StdoutLine: {'line': b'writing entry points to ../../build/ds4drv/ds4drv.egg-info/entry_points.txt\n'}
+[11.135791] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.135967] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.188707] (-) TimerEvent: {}
+[11.199195] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[11.278503] (ds4drv) StdoutLine: {'line': b'writing requirements to ../../build/ds4drv/ds4drv.egg-info/requires.txt\n'}
+[11.279255] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.279585] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.288894] (-) TimerEvent: {}
+[11.300566] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[11.301241] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[11.304373] (ds4drv) StdoutLine: {'line': b'writing top-level names to ../../build/ds4drv/ds4drv.egg-info/top_level.txt\n'}
+[11.305125] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.308793] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[11.311964] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[11.389050] (-) TimerEvent: {}
+[11.445108] (mov_woc) StdoutLine: {'line': b'running install\n'}
+[11.446755] (mov_woc) StdoutLine: {'line': b'running install_lib\n'}
+[11.450859] (mov_woc) StdoutLine: {'line': b'copying /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/mov1.py -> /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc\n'}
+[11.453184] (mov_woc) StdoutLine: {'line': b'byte-compiling /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/mov1.py to mov1.cpython-310.pyc\n'}
+[11.476212] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.476764] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.487663] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.488309] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.489140] (-) TimerEvent: {}
+[11.493537] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[11.493936] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[11.494521] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[11.495533] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.496092] (ds4drv) StdoutLine: {'line': b"reading manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'\n"}
+[11.496754] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.497225] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[11.497693] (ds4drv) StdoutLine: {'line': b"reading manifest template 'MANIFEST.in'\n"}
+[11.501445] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[11.503788] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.509653] (py_srvcli) StdoutLine: {'line': b"removing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.510730] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[11.517308] (mov_woc) StdoutLine: {'line': b'running install_data\n'}
+[11.521392] (mov_woc) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.527257] (mov_woc) StdoutLine: {'line': b"removing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.528630] (mov_woc) StdoutLine: {'line': b'Copying ../../build/mov_woc/mov_woc.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info\n'}
+[11.563424] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[11.578514] (ds4drv) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.579122] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.579471] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.580465] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.581575] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.582448] (ds4drv) StdoutLine: {'line': b"writing manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'\n"}
+[11.582916] (mov_woc) StdoutLine: {'line': b'running install_scripts\n'}
+[11.589264] (-) TimerEvent: {}
+[11.592708] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.593051] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.593308] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.593554] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.593804] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.594078] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.594304] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.594521] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.594714] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.594902] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfacesConfig.cmake\n'}
+[11.595089] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfacesConfig-version.cmake\n'}
+[11.595274] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.xml\n'}
+[11.596920] (ds4drv) StdoutLine: {'line': b'running build\n'}
+[11.597254] (ds4drv) StdoutLine: {'line': b'running build_py\n'}
+[11.601832] (ds4drv) StdoutLine: {'line': b'running install\n'}
+[11.602495] (ds4drv) StdoutLine: {'line': b'running install_lib\n'}
+[11.606409] (ds4drv) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.608487] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/py_srvcli/install.log'\n"}
+[11.608787] (ds4drv) StdoutLine: {'line': b"removing '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info' (and everything under it)\n"}
+[11.609079] (ds4drv) StdoutLine: {'line': b'Copying ../../build/ds4drv/ds4drv.egg-info to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info\n'}
+[11.609845] (ds4drv) StdoutLine: {'line': b'running install_scripts\n'}
+[11.613240] (com_interfaces) CommandEnded: {'returncode': 0}
+[11.621483] (mov_woc) StdoutLine: {'line': b'Installing client script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc\n'}
+[11.632670] (ds4drv) StdoutLine: {'line': b'Installing ds4drv script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/ds4drv/bin\n'}
+[11.689422] (-) TimerEvent: {}
+[11.717941] (mov_woc) StdoutLine: {'line': b'Installing conversor script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc\n'}
+[11.722591] (ds4drv) StdoutLine: {'line': b"writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/ds4drv/install.log'\n"}
+[11.740468] (mov_woc) StdoutLine: {'line': b'Installing service script to /home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc\n'}
+[11.745446] (mov_woc) StdoutLine: {'line': b"writing list of installed files to '/home/krita/Documents/GitHub/Sub_codes_2023/sub_ws/build/mov_woc/install.log'\n"}
+[11.789618] (-) TimerEvent: {}
+[11.890078] (-) TimerEvent: {}
+[11.990787] (-) TimerEvent: {}
+[12.091159] (-) TimerEvent: {}
+[12.191901] (-) TimerEvent: {}
+[12.292796] (-) TimerEvent: {}
+[12.393488] (-) TimerEvent: {}
+[12.494130] (-) TimerEvent: {}
+[12.594856] (-) TimerEvent: {}
+[12.695629] (-) TimerEvent: {}
+[12.728259] (mov_woc) CommandEnded: {'returncode': 0}
+[12.795793] (-) TimerEvent: {}
+[12.802233] (mov_woc) JobEnded: {'identifier': 'mov_woc', 'rc': 0}
+[12.921206] (-) TimerEvent: {}
+[12.921653] (py_srvcli) CommandEnded: {'returncode': 0}
+[13.013558] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[13.017448] (ds4drv) CommandEnded: {'returncode': 0}
+[13.021871] (-) TimerEvent: {}
+[13.122241] (-) TimerEvent: {}
+[13.170693] (ds4drv) JobEnded: {'identifier': 'ds4drv', 'rc': 0}
+[13.222562] (-) TimerEvent: {}
+[13.323172] (-) TimerEvent: {}
+[13.423768] (-) TimerEvent: {}
+[13.524509] (-) TimerEvent: {}
+[13.625085] (-) TimerEvent: {}
+[13.725636] (-) TimerEvent: {}
+[13.826228] (-) TimerEvent: {}
+[13.926875] (-) TimerEvent: {}
+[13.945149] (com_interfaces) JobEnded: {'identifier': 'com_interfaces', 'rc': 0}
+[13.948003] (-) EventReactorShutdown: {}
